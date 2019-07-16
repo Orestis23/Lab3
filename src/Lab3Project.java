@@ -9,9 +9,10 @@ public class Lab3Project {
 		String userName = scan.next();
 		
 		//Garbage collection
-		scan.nextLine();
+		// scan.nextLine();
 		
-		char userChar = scan.next().charAt(0);
+		// char userChar = scan.next().charAt(0);
+		char userChar = 'y';
 		
 		while (userChar == 'y') {
 		System.out.println("Enter a number between 1 and 100!");
@@ -43,9 +44,10 @@ public class Lab3Project {
 		}
 		System.out.println("Would you like to continue? (y/n)");
 		
-		scan.next().charAt(0);
-	}
+		userChar = scan.next().charAt(0); 
 		
+	}
+		System.out.println("Take it easy!");
 		
 		
 		
