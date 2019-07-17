@@ -7,11 +7,7 @@ public class Lab3Project {
 
 		System.out.println("What is your name Friend?");
 		String userName = scan.next();
-		
-		//Garbage collection
-		// scan.nextLine();
-		
-		// char userChar = scan.next().charAt(0);
+	
 		char userChar = 'y';
 		
 		while (userChar == 'y') {
